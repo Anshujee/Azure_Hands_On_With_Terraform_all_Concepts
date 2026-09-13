@@ -1,9 +1,5 @@
 variable "RG_Names" {
-    description = "List of resource group names"
-    type        = list(string)
+  type = map(string)
+  description = "A map of resource group names and their corresponding locations."
 }
 
-variable "location" {
-type        = string
-description = "Location of the resource group"
-}
