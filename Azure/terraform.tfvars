@@ -1,2 +1,5 @@
-RG_Names = ["AnshuRG1Test1", "AnshuRG2Test2"]
-location = "Central India"
+RG_Names = {
+    RG1 = "East US"
+    RG2 = "West US"  
+    RG3 = "Central India"
+}
